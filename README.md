@@ -1,15 +1,15 @@
-##Glue Masquerade Circus' version
+Glue Masquerade Circus' version
 ==========================
 
 With this version you can include the script in a subdir and will work from it.
 Also, you will recive the matches as coma separated vars.
    
-##Example:
+Example:
 ```php
    $urls = array(
-       '/' => 'index',
-    	'/catalog' => 'catalog'
-       '/catalog/(\w+)' => 'catalog'
+		'/' => 'index',
+		'/catalog' => 'catalog'
+		'/catalog/(\w+)' => 'catalog'
     	'/catalog/(\w+)/(\w+)' => 'catalog'
    );
    
